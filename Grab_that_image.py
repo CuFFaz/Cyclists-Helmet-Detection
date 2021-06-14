@@ -9,7 +9,7 @@ import hashlib
 import imagehash
 
 
-DRIVER_PATH = '/home/cuff/python_projects/cyclists/chromedriver'
+DRIVER_PATH = 'Cyclists-Helmet-Detection/chromedriver'
 search_term = 'cyclist'
 number_images = 5
 
