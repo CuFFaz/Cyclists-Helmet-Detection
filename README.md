@@ -14,13 +14,13 @@ The Structure should be as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;├── Run_cyclists_counter.py\
 &nbsp;&nbsp;&nbsp;&nbsp;├── Run_helmet_detector.py\
 &nbsp;&nbsp;&nbsp;&nbsp;├── yolo\
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── coco.names\
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── yolov3.cfg\
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── yolov3.weights\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── coco.names\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3.cfg\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3.weights\
 &nbsp;&nbsp;&nbsp;&nbsp;└── yolo_helmet\
-&nbsp;&nbsp;&nbsp;&nbsp;├── obj.names\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3-obj_2400.weights\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3-obj.cfg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── obj.names\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3-obj_2400.weights\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3-obj.cfg\
         
 3 directories, 12 files
 
