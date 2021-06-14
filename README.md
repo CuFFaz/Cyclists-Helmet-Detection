@@ -10,17 +10,17 @@ The Structure should be as follows:
     ├── chromedriver\
     ├── Grab_that_image.py\
     ├── main.py\
-    ├── requirements.txt
-    ├── Run_cyclists_counter.py
-    ├── Run_helmet_detector.py
-    ├── yolo
-    │   ├── coco.names
-    │   ├── yolov3.cfg
-    │   └── yolov3.weights
-    └── yolo_helmet
-        ├── obj.names
-        ├── yolov3-obj_2400.weights
-        └── yolov3-obj.cfg
+    ├── requirements.txt\
+    ├── Run_cyclists_counter.py\
+    ├── Run_helmet_detector.py\
+    ├── yolo\
+    │   ├── coco.names\
+    │   ├── yolov3.cfg\
+    │   └── yolov3.weights\
+    └── yolo_helmet\
+        ├── obj.names\
+        ├── yolov3-obj_2400.weights\
+        └── yolov3-obj.cfg\
         
 3 directories, 12 files
 
