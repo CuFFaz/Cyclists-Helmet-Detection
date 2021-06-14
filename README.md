@@ -7,20 +7,20 @@ Thus for the script to work with its default parameters and paths, I'd highly re
 The Structure should be as follows:
 
 └── Cyclists-Helmet-Detection(Main Branch)\
-    ├── chromedriver\
-    ├── Grab_that_image.py\
-    ├── main.py\
-    ├── requirements.txt\
-    ├── Run_cyclists_counter.py\
-    ├── Run_helmet_detector.py\
-    ├── yolo\
-    │   ├── coco.names\
-    │   ├── yolov3.cfg\
-    │   └── yolov3.weights\
-    └── yolo_helmet\
-        ├── obj.names\
-        ├── yolov3-obj_2400.weights\
-        └── yolov3-obj.cfg\
+&nbsp;&nbsp;&nbsp;&nbsp;├── chromedriver\
+&nbsp;&nbsp;&nbsp;&nbsp;├── Grab_that_image.py\
+&nbsp;&nbsp;&nbsp;&nbsp;├── main.py\
+&nbsp;&nbsp;&nbsp;&nbsp;├── requirements.txt\
+&nbsp;&nbsp;&nbsp;&nbsp;├── Run_cyclists_counter.py\
+&nbsp;&nbsp;&nbsp;&nbsp;├── Run_helmet_detector.py\
+&nbsp;&nbsp;&nbsp;&nbsp;├── yolo\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;├── coco.names\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;├── yolov3.cfg\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;└── yolov3.weights\
+&nbsp;&nbsp;&nbsp;&nbsp;└── yolo_helmet\
+&nbsp;&nbsp;&nbsp;&nbsp;├── obj.names\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3-obj_2400.weights\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3-obj.cfg\
         
 3 directories, 12 files
 
