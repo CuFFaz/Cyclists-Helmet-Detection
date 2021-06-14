@@ -24,7 +24,31 @@ The Structure should be as follows:
 
 3 directories, 12 files
 
+# Web Scraping:-
+Web Scraping is done using Selenium. It takes access of Google Chrome, thus chromedriver is mandatory and the chromedriver version should specifically match with the GoogleChrome Version installed on your system.
+1. Check Version of Google Chrome -----> Open Chrome > Settings > About Chromw (Leftmost Panel)> Check version.
+2. To download relevant chromedriver, this link should be used else lastest version is already uploaded in the repository -----> https://chromedriver.chromium.org/downloads
 
+# YOLO:-
+This Script uses the concept of Transfer Learning and the yolo pretrained-weights.
+YOLOv3 for Cyclist Detection and YOLOV3-Obj for Helmet Detection. Thus the weights, cfg, obj files are needed to be downloaded and are easily accessible from the link given below.
 
+Yolo & Yolo_helmet Folder - https://drive.google.com/drive/folders/1QV9DQj2oqdrruuhSiu9pl6SP19unTafi?usp=sharing
+
+# Points to Remember:
+1. main.py consists of two classes, One for Cyclists Detection and Counter and Second for Helmet+Cyclists Detection and Counter. 
+2. Run Run_cyclist_counter.py file for Cyclists Detection
+3. Run Run_helmet_detector.py file for Cyclists and Helmet Detection
+4. While OpenCV uses its window to display the detections, pls press 'Esc' Key to scroll and view the image one by one.
+5. All the detections will be saved in the "images" folder which will be created after scraping.
+
+# STEPS TO RUN THE SCRIPT:
+1. Run Requirements.txt file as follows:
+    $ pip install -r requirements.txt
+2. Run Grab_that_image.py
+3. Run Run_helmet_detector.py
+
+# Outputs:
+"images"
 
 
