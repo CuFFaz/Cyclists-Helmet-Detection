@@ -14,13 +14,13 @@ The Structure should be as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;├── Run_cyclists_counter.py\
 &nbsp;&nbsp;&nbsp;&nbsp;├── Run_helmet_detector.py\
 &nbsp;&nbsp;&nbsp;&nbsp;├── yolo\
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── coco.names\
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3.cfg\
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3.weights\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── coco.names\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3.cfg\
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3.weights\
 &nbsp;&nbsp;&nbsp;&nbsp;└── yolo_helmet\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── obj.names\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3-obj_2400.weights\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3-obj.cfg\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── obj.names\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── yolov3-obj_2400.weights\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── yolov3-obj.cfg\
         
 3 directories, 12 files
 
@@ -41,6 +41,8 @@ Yolo & Yolo_helmet Folder - https://drive.google.com/drive/folders/1QV9DQj2oqdrr
 3. Run Run_helmet_detector.py file for Cyclists and Helmet Detection
 4. While OpenCV uses its window to display the detections, pls press 'Esc' Key to scroll and view the image one by one.
 5. All the detections will be saved in the "images" folder which will be created after scraping.
+6. Make sure DRIVER_PATH in Grab_that_image.py leads to the chromedriver file
+7. Number of images to be scraped can be entered in Grab_that_image.py. Default is 5. 
 
 # STEPS TO RUN THE SCRIPT:
 1. Run Requirements.txt file as follows:
@@ -50,7 +52,9 @@ Yolo & Yolo_helmet Folder - https://drive.google.com/drive/folders/1QV9DQj2oqdrr
 
 # Outputs:
 "images" folder will have 2 sub-folders which will contain all the detected images with the counts on them.
-The outputs would look something like this:
+The outputs looks something just like this:
+
+
 
 
 
