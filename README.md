@@ -6,10 +6,10 @@ Thus for the script to work with its default parameters and paths, I'd highly re
 
 The Structure should be as follows:
 
-└── Cyclists-Helmet-Detection(Main Branch)
-    ├── chromedriver
-    ├── Grab_that_image.py
-    ├── main.py
+└── Cyclists-Helmet-Detection(Main Branch)\
+    ├── chromedriver\
+    ├── Grab_that_image.py\
+    ├── main.py\
     ├── requirements.txt
     ├── Run_cyclists_counter.py
     ├── Run_helmet_detector.py
@@ -21,7 +21,7 @@ The Structure should be as follows:
         ├── obj.names
         ├── yolov3-obj_2400.weights
         └── yolov3-obj.cfg
-
+        
 3 directories, 12 files
 
 # Web Scraping:-
@@ -49,6 +49,8 @@ Yolo & Yolo_helmet Folder - https://drive.google.com/drive/folders/1QV9DQj2oqdrr
 3. Run Run_helmet_detector.py
 
 # Outputs:
-"images"
+"images" folder will have 2 sub-folders which will contain all the detected images with the counts on them.
+The outputs would look something like this:
+
 
 
