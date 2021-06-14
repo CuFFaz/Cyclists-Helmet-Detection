@@ -53,13 +53,13 @@ Yolo & Yolo_helmet Folder - https://drive.google.com/drive/folders/1QV9DQj2oqdrr
 # Outputs:
 "images" folder will have 2 sub-folders which will contain all the detected images with the counts on them.
 The outputs looks something just like this:
-Cyclists Detection:-
-![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/cyclist/f80b6ad9e4.jpg)
-![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/cyclist/a065255504.jpg)
+Cyclists Detection:-\
+![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/cyclist/f80b6ad9e4.jpg)\
+![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/cyclist/a065255504.jpg)\
 
-Helmet Detections:-
+Helmet Detections:-\
+![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/Helmet_detections/Image.00049.jpeg)\
 ![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/Helmet_detections/Image.00032.jpeg)
-![alt text](https://github.com/CuFFaz/Cyclists-Helmet-Detection/blob/main/images/Helmet_detections/Image.00049.jpeg)
 
 
 
